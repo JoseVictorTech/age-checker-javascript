@@ -12,7 +12,7 @@ function verificar() {
         let img = document.getElementById ('imagem')
         if(sexo[0].checked){
         genero = 'homem'
-        if (idade >= 12 && idade < 18) {
+        if (idade >= 12 && idade < 25) {
             resp.innerHTML =` voce e um jovem de ${idade} anos `
             img.src = 'fotos/jovem.jpg'
             resp.appendChild(img)
@@ -53,6 +53,7 @@ function verificar() {
 
 
     }
+
 
 
 
