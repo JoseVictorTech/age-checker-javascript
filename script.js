@@ -16,7 +16,7 @@ function verificar() {
             resp.innerHTML =` voce e um jovem de ${idade} anos `
             img.src = 'fotos/jovem.jpg'
             resp.appendChild(img)
-         } else  if ( idade >= 18 && idade < 60) {
+         } else  if ( idade >= 25 && idade < 60) {
             resp.innerHTML = `voce e um <strong>adulto </strong> com ${idade} anos`
             img.src = './fotos/homem de 40 anos.jpg'
             resp.appendChild(img)
@@ -30,11 +30,11 @@ function verificar() {
         } else if ( sexo[1].checked) {
             genero = 'mulher'
         
-          if (idade >= 12 && idade < 18) {
+          if (idade >= 12 && idade < 25) {
             resp.innerHTML = `voce e uma <strong>jovem </strong> de ${idade} anos`
             img.src = 'fotos/moça jovem.jpg'
             resp.appendChild (img) 
-          } else if (idade >= 12 && idade < 60) {
+          } else if (idade >= 25 && idade < 60) {
             resp.innerHTML = `voce e uma adulta ${idade} anos`
             img.src = 'fotos/adulta.jpg'
             resp.appendChild(img)
@@ -60,3 +60,4 @@ function verificar() {
 
 
  
+
