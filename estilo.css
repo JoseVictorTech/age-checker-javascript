@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(20, 20, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 ;
+
+}
+header{
+ text-align: center;
+ color: white;
+ font-size: 28px;
+ 
+}
+section{
+    max-width:  450px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.37);
+}
+#fomulario{
+     font-family: 'Poppins', sans-serif;
+
+}
+#resp{
+    font-style: 'inter', sans-serif;
+    text-align: center;
+    height: auto;
+   
+
+}
+    
+        
+
+#foto{
+    max-width: 300px;
+     margin: auto;
+    display: block;
+    width: 70%;
+    height:auto;
+   
+} 
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-style: italic;
+
+}
